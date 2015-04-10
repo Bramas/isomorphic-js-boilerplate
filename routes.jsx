@@ -9,7 +9,7 @@ var DefaultRoute = Router.DefaultRoute;
 
 module.exports = (
     <Route name="top" handler={App} path="/">
-      <Route name="artist"  handler={Test} />
+      <Route name="contact"  handler={Test} />
       <DefaultRoute handler={Home} />
     </Route>
 )
