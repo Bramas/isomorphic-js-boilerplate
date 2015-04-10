@@ -1,0 +1,17 @@
+{
+  "name": "Reflux-boilerplate",
+  "version": "0.0.1",
+  "private": "true",
+  "scripts": {
+    "prestart": "browserify --extension=.jsx -t reactify client.js > public/bundle.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "node-jsx": "*",
+    "react": "*",
+    "react-router": "*",
+    "reflux": "*",
+    "browserify" : "*",
+    "reactify" : "*"
+  }
+}
